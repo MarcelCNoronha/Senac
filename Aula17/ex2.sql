@@ -231,3 +231,6 @@ WHERE
 GROUP BY h1.mat
 
 d) Encontre quantos alunos não são de Natal.
+
+
+Exercicio faltante
