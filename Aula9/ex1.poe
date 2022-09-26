@@ -1,0 +1,43 @@
+programa
+{
+	funcao inicio ()
+	{
+// Escreva um algoritmo que solicite ao usuário a entrada de 5 nomes, e que exiba a lista
+// desses nomes na tela. Após exibir essa lista, o programa deve mostrar também os nomes
+// na ordem inversa em que o usuário os digitou, um por linha.
+		
+		cadeia nome[5]
+		caracter nomes[]
+		
+		escreva("Escreva cinco nomes \n")
+		
+		para (inteiro i=0; i<5; i++)
+		{
+		escreva("\n")
+		escreva("Escreva o " + (i+1) +"º" + " nome: ")
+		leia(nome[i])
+		}
+		
+		// lista de nomes
+		
+        para (inteiro i=0; i<5; i++)
+		escreva((i+1)+"º" + " nome: " + nome[i]+"\n")
+	
+		escreva("\n")
+		
+		// lista de nomes invertidos
+		para (inteiro a=4; a>=0; a--)
+		{
+			escreva((a+1)+"º" + " nome: " + nome[a]+ "\n")
+		}
+		
+		escreva("\n")
+		
+		 para (inteiro i=0; i<5; i++){
+			escreva((i+1)+"º" + " nome: " + nome[i]+"\n")
+			escreva((5-i)+"º" + " nome: " + nome[4-i]+"\n")
+	
+		escreva("\n")
+		 }
+	}
+}

@@ -1,0 +1,84 @@
+programa
+{
+	funcao inicio ()
+	{
+		// função
+		inteiro func, z
+		real x, y
+		
+		enquanto (func != 0)
+		{
+		escreva ("\n")
+		escreva ("Calculadora \n")
+		escreva ("1 - Soma \n")
+		escreva ("2 - Subtração \n")
+		escreva ("3 - Multiplicação \n")
+		escreva ("4 - Divisão \n")
+		escreva ("5 - Fatorial \n")
+		escreva ("0 - Fechar a calculadora \n")
+		escreva ("Selecione uma função: ")
+		leia(func)
+
+		enquanto (func < 0 ou func >5)
+		{
+			escreva("Selecione uma função válida: ")
+			leia(func)
+		}
+		se (func > 0 e func <5)
+		{
+		escreva ("Entre com dois valores \n")
+		leia(x)
+		leia(y)
+		}
+		senao se (func == 5)
+		{
+			escreva ("Entre um valor \n")
+		leia(z)
+		}
+		escolha (func)
+		{
+		caso 1:
+			escreva("resultado: " + x + " + " + y + " = "+ soma(x,y) + "\n")
+		pare
+		caso 2:
+			escreva ("resultado: " + x + " - " + y + " = "+ subtracao(x,y) + "\n")
+		pare
+		caso 3:
+			escreva ("resultado: " + x + " * " + y + " = "+ multiplicacao(x,y) + "\n")
+		pare
+		caso 4:
+			escreva ("resultado: " + x + " / " + y + " = "+ divisao(x,y) + "\n")
+		pare
+		caso 5:
+			escreva ("resultado:  " + z + "! = "+ fatorial(z) + "\n")
+		pare
+		}
+	}
+	}
+	
+	funcao real soma (real a, real b)
+	{
+		retorne a + b
+	}
+		funcao real subtracao (real a, real b)
+	{
+		retorne a - b
+	}
+		funcao real multiplicacao (real a, real b)
+	{
+		retorne a * b
+	}
+		funcao real divisao (real a, real b)
+	{
+		retorne a / b
+	}
+			funcao inteiro fatorial (inteiro z)
+	{
+		inteiro resultado = 1
+		para (inteiro i = z  ; i>0; i--)
+		{
+		resultado = resultado*i
+		}
+		retorne resultado
+	}
+}

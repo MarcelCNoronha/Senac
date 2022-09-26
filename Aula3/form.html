@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <form action="recebe.php" method="get">
+        <input type="text" placeholder="Nome" name="nome"><p>
+        <input type="email" name="email" id="" placeholder="Insira o seu e-mail"> 
+        <input type="password" name="senha" id="" placeholder="Insira sua senha">
+            <p>Selecione a sua data de nascimento</p>
+        <input type="date" name="data_nascimento" id="">
+        <p>Selecione seu estado</p>
+        <select id="Estados" name="estado">
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG" selected>Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+            <option value="EX">Estrangeiro</option> 
+        </select><p>
+
+        <input type="radio" name="sex" id="Masculino">Masculino
+        <input type="radio" name="sex" id="Feminino">Feminino
+        <input type="radio" name="sex" id="Outros">Outros
+
+        <p>Nível de satisfação</p>
+        <input type="range" name="satisfacao" id="">
+        
+        <h4>Quais linguagens irei aprender durante o curso</h4>
+        <input type="checkbox" name="html" id="">HTML
+        <input type="checkbox" name="css" id="">CSS
+        <input type="checkbox" name="javascript" id="">Javascript
+        <input type="checkbox" name="php" id="">PHP
+
+        <p>Selecione um arquivo</p>  
+        <input type="file" name="Anexo" id=""><p>
+        <button type="submit">Cadastrar</button>
+        <button type="reset">Limpar</button>
+
+
+    </form>
+</body>
+</html>

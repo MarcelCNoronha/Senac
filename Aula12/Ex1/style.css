@@ -1,0 +1,26 @@
+        #primeiraColuna
+        {
+            color: blue;
+            width: 10px;
+        }
+        #segundaColuna
+        {
+            color: rgb(112, 74, 128);
+        }
+        #titulo
+        {
+            font-size: 24px;
+            font-weight: bold;
+            background-color: beige;
+        }
+        #subtitulo
+        {
+            background-color: aqua;
+        }
+        #tabela
+        {
+            width: 400px;
+            background-color: beige;
+            display: grid;
+            
+        }

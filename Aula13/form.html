@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Formulário</title>
+
+ 
+</head>
+<body>
+    <div class="container">
+
+    <form action="recebe.php" method="get">
+        <h2> Ficha Cadastral</h2>
+        <p>
+        <label for=""> Nome: </label>
+        <input type="text"  name="nome";></p>
+        <p>
+        <label for="">RG: </label>
+        <input type="number" name="RG" > 
+        <label for="">CPF: </label>
+        <input type="number" name="CPF" ></p>
+        <p>
+        <label for="">Endereço: </label>
+        <input type="text" name="endereço"></p>
+        <p>
+        <label for="">Sexo: </label>
+        <select id="Sexo" name="sexo">
+            <option value="Masc">Masculino</option>
+            <option value="Fem">Feminino</option>
+            <option value="NA">Indefinido</option>
+        </select>
+        <label for="">Data Nascimento: </label>
+        <input type="date" name="data_nascimento" i></p>
+        <p>
+        <label for="">Situação Civil: </label>
+         
+        <input type="radio" name="situacao" id="Solteiro">
+        <label for="">Solteiro(a) </label>
+        <input type="radio" name="situacao" id="Casado">
+        <label for="">Casado(a)</label>
+        <input type="radio" name="situacao" id="Viúvo">
+        <label for="">Viúvo(a)</label></p>
+        <button type="submit">Cadastrar</button>
+        <button type="reset">Limpar dados</button>
+    </form>
+</div>
+</body>
+</html>

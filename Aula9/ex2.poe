@@ -1,0 +1,32 @@
+programa
+{
+	funcao inicio ()
+	{
+// Crie um programa que solicite a entrada de 10 números pelo usuário, armazenando-os
+// em um vetor, e então monte outro vetor com os valores do primeiro multiplicados por 5.
+// Exiba os valores dos dois vetores na tela, simultaneamente, em duas colunas (um em
+// cada coluna), uma posição por linha.
+
+		
+		inteiro numero[10], multiplicado[10]
+		escreva("Escreva 10 números \n")
+		
+		para (inteiro i=0; i<10; i++)
+		{
+		escreva("Escreva o " +(i+1)+ "º número: ")
+		leia(numero[i])
+		multiplicado[i]= numero[i]*5
+		}
+		
+		
+		escreva("\n")
+		para (inteiro a = 0; a<10; a++)
+		{
+		escreva((a+1)+ "º: "+ numero[a]) 
+		escreva(" x 5 = ")
+		escreva(multiplicado[a])
+		escreva("\n")
+		}
+
+	}
+}

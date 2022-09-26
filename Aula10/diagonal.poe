@@ -1,0 +1,25 @@
+programa
+{
+	funcao inicio ()
+	{
+		// matriz identidade
+		inteiro numeros[4][4]
+		escreva("Matriz diagonal \n")
+		para (inteiro i=0; i<4; i++)
+		{
+			para (inteiro j=0; j<4; j++)
+			{
+				se (i==j)
+				{
+					numeros[i][j]=1
+				}
+				senao
+				{
+					numeros[i][j]=0
+				}
+				escreva(numeros[i][j] +" ")
+			}
+			escreva("\n")
+		}
+	}
+}

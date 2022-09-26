@@ -1,0 +1,24 @@
+programa
+{
+	funcao inicio ()
+	{
+		// matriz
+		inteiro numeros[2][3]
+		para (inteiro i=0; i<2; i++)
+		{
+			para (inteiro j=0; j<3; j++)
+			{
+			escreva("Escreva um número \n")
+			leia(numeros[i][j])
+			}
+		}
+		para (inteiro i=0; i<2; i++)
+		{
+			para (inteiro j=0; j<3; j++)
+			{
+			escreva(numeros[i][j] +" ")
+			}
+			escreva("\n")
+		}
+	}
+}

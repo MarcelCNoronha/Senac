@@ -1,0 +1,43 @@
+programa
+{
+	funcao inicio ()
+	{
+		//  Crie um programa que armazene 10 números digitados pelo usuário em dois vetores: um
+		// somente para números pares, e outro somente para números ímpares. Após, exiba os
+		// valores dos dois vetores na tela, em sequência. Obs.: As posições que não receberem
+		// valores exibirão o número zero. Não se preocupe com isso por enquanto.
+		// Modifique o programa anterior para não aceitar a entrada do número zero, e requisitar a
+		// digitação de outro número neste caso.
+
+		
+		inteiro numero
+		inteiro par[10], impar[10]
+		
+		para (inteiro i=0; i<10; i++)
+		{
+		escreva("Escreva o "+ (i+1) +"º número. \n")
+		leia(numero)
+			
+			enquanto (numero == 0)
+			{
+			escreva("Escreva o "+ (i+1) +"º número, diferente de zero. \n")
+			leia(numero)
+			}
+
+			se (numero%2==0)
+			{
+				par[i] = numero
+			}
+			senao
+			{
+				impar[i] = numero
+			}
+	
+		}
+		
+		escreva("Números pares: "+ par)
+		escreva("\n")
+		escreva("Números impares: "+impar)
+		
+	}
+}

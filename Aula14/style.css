@@ -1,0 +1,112 @@
+table
+{
+    font-family: Arial;
+    border: #DDDDDD 1px solid;
+    border-collapse: collapse;
+    
+}
+table tr
+{
+    font-size: 14px;
+    text-align:center;
+    color: #666666;
+    font-weight: normal;
+    border-bottom:  #DDDDDD 1px solid;
+    height: 30px;
+}
+table th
+{
+    width: 40px;
+}
+
+table tfoot tr
+{
+    height: 15px;
+    border-bottom:  #DDDDDD 0px solid;
+}
+
+
+
+.classificado
+{
+    font-size: 18px;
+    align-items: center;
+    font-weight: bold;
+    color: #003366;  
+}
+.semiclassificado
+{
+    font-size: 18px;
+    align-items: center;
+    font-weight: bold;
+    color: #1398BE;  
+}
+.centro
+{
+    font-size: 18px;
+    align-items: center;
+    font-weight: bold;
+    color: #DE9800;
+}
+.centroInferior
+{
+    font-size: 18px;
+    align-items: center;
+    font-weight: bold;
+    color: #CCCCCC;
+}
+.ultimos
+{
+    font-size: 18px;
+    align-items: center;
+    font-weight: bold;
+    color: #C91B04;
+}
+.backgroud
+{
+    background-color: #F7F7F7;
+}
+.nome
+{
+    width: 200px;
+    font-size: 14px;
+    text-align:left;
+    font-weight: bold;
+    color: #666666;
+}
+.pontos
+{
+    font-size: 14px;
+    text-align:center;
+    font-weight: bold;
+    color: #000000;
+}
+
+.areaClassificacao
+{
+    font-size: 10px;
+    text-align:left;
+    font-weight: normal;
+    color: #8F8F8F;
+}
+.siglas
+{
+    font-size: 10px;
+    text-align:left;
+    font-weight: bold;
+    color: #555555;
+}
+.linhaDupla
+{
+    border: 2px #CCCCCC solid;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+}
+.imagem
+{
+    width: 10px;
+    height: 10px;
+}
+
+
